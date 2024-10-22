@@ -1,0 +1,80 @@
+object Form1: TForm1
+  Left = 317
+  Height = 429
+  Top = 124
+  Width = 773
+  Caption = 'Form1'
+  ClientHeight = 429
+  ClientWidth = 773
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 464
+    Height = 25
+    Top = 32
+    Width = 23
+    Caption = 'SX'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 464
+    Height = 25
+    Top = 80
+    Width = 23
+    Caption = 'SY'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object EditSX: TEdit
+    Left = 504
+    Height = 23
+    Top = 80
+    Width = 80
+    TabOrder = 0
+    Text = '0'
+  end
+  object EditSY: TEdit
+    Left = 504
+    Height = 23
+    Top = 34
+    Width = 80
+    TabOrder = 1
+    Text = '0'
+  end
+  object Button1: TButton
+    Left = 637
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Kotak'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 637
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Besarkan'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 637
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = 'Kecilkan'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+end
